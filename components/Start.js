@@ -24,7 +24,7 @@ const Start = ({ navigation }) => {
         navigation.navigate("Chat", {
           userID: res.user.uid,
           name: name,
-          backgroundColor: bgColor,
+          bgColor: bgColor,
         });
         Alert.alert("Signed in successfully");
       })
